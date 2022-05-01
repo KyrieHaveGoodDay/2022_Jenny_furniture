@@ -1,0 +1,20 @@
+.product{
+    background:#FFE0C3 ;
+    text-align: center;
+    padding: 10px 0;
+    
+    a{
+        img{
+            margin: 0 15px ;
+            transition: 0.5s;
+            object-fit:cover;
+            @media screen and(max-width:500px){
+              width: 20%;
+            }
+            &:hover{
+
+                transform: scale(1.2);
+            }
+        }
+    }
+}

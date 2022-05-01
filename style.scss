@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import 'product';
+@import 'discount';
+
+
+
+.main_size{
+    width: 1000px;
+    margin: 0 auto;
+    @media screen and(max-width:1200px){
+        width: 100%;
+    }
+}
+nav{
+    
+    display: grid;
+    // 1200
+    grid-template-columns: repeat(2,1fr)  ;
+    padding: 10px 0;
+    .icon_img{
+        text-align: right;
+        a{
+            img{
+                margin: 0 5px;
+            }
+        }
+    }
+}

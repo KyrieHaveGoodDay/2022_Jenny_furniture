@@ -1,0 +1,29 @@
+.discount{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 30px !important;
+    grid-gap: 15px;
+    align-items: center;
+    .discount_data{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        background: #FFE0C3;
+        text-align: center;
+        p{
+            padding: 20px;
+            
+        }
+    }
+    .discount_main{
+        border: 2px solid #ff7b54;
+        height: 100px;
+        text-align: center;
+        .discount_title{
+            font-size: 26px;
+            font-weight: bold;
+        }
+        .discount_content{
+            font-size: 14px;
+        }
+    }
+}
