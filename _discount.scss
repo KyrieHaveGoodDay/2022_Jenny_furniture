@@ -1,29 +1,46 @@
-.discount{
+.discount {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin-top: 30px !important;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 15px !important;
     grid-gap: 15px;
     align-items: center;
-    .discount_data{
+    @media screen and(max-width:768px) {
+        display: block;
+        padding: 0 50px;
+    }
+    .discount_data {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        background: #FFE0C3;
-        text-align: center;
-        p{
-            padding: 20px;
-            
+        grid-template-columns: repeat(2, 1fr);
+        background: #ffe0c3;
+        text-align: left;
+        p {
+            padding: 15px;
+            @media screen and(max-width:997px) {
+                padding: 10px;
+            }
         }
     }
-    .discount_main{
+    .discount_main {
         border: 2px solid #ff7b54;
-        height: 100px;
+        // height: 100px;
         text-align: center;
-        .discount_title{
+        padding: 30px 0;
+        .discount_title {
             font-size: 26px;
             font-weight: bold;
         }
-        .discount_content{
+        .discount_content {
             font-size: 14px;
         }
+    }
+}
+
+.br768 {
+    // 桌機
+    @media screen and(max-width:768px) {
+        display: none;
+    }
+    @media screen and(max-width:414px) {
+        display: block;
     }
 }

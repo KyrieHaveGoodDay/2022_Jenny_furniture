@@ -5,11 +5,13 @@
 }
 @import 'product';
 @import 'discount';
+@import 'slide';
 
 
 
 .main_size{
-    width: 1000px;
+    width: 1200px;
+    // max-width: 100%;
     margin: 0 auto;
     @media screen and(max-width:1200px){
         width: 100%;

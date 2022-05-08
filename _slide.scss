@@ -1,0 +1,14 @@
+.prudct_title{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 20px !important;
+    .btnNexPre{
+        text-align: right;
+    }
+    
+}
+// .product_list{
+//     p{
+//         text-align: center;
+//     }
+// }

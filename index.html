@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>家具網站</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -22,7 +23,7 @@
 
     <!-- 產品列表 -->
     <div class="product">
-        
+
         <a href=""><img src="./img/Chair.png" alt=""></a>
         <a href=""><img src="./img/Lighthing.png" alt=""></a>
         <a href=""><img src="./img/New-in.png" alt=""></a>
@@ -34,8 +35,8 @@
     <!-- 折價 -->
     <div class="discount main_size">
         <div class="discount_data">
-            <p>Office Chair <br>
-                from <br>
+            <p>Office Chair <br class="br768">
+                from <br class="br768">
                 $50
             </p>
             <img src="img/03_1Image-Product.png" alt="">
@@ -55,7 +56,46 @@
             <img src="img/03_2Image-Product.png" alt="">
         </div>
     </div>
-
+    <div class="prudct_title main_size">
+        <h3>New In</h3>
+        <div class="btnNexPre">
+            <img src="./img/Prev.png" alt="">
+            <img src="./img/next.png" alt="">
+        </div>
+    </div>
+    <div class="product_slide main_size swiper mySwiper">
+        <div class="swiper-wrapper">
+            <!-- 商品 -->
+            <div class="product_list swiper-slide">
+                <img src="./img/04_2Image-Product.png" alt="">
+                <p>Betty</p>
+                <p>USD 2,000</p>
+            </div>
+            <div class="product_list swiper-slide">
+                <img src="./img/04_3_Image-Product.png" alt="">
+                <p>Betty</p>
+                <p>USD 2,000</p>
+            </div>
+            <div class="product_list swiper-slide">
+                <img src="./img/04_4_Image-Product.png" alt="">
+                <p>Betty</p>
+                <p>USD 2,000</p>
+            </div>
+            <div class="product_list swiper-slide">
+                <img src="./img/asset-1.png" alt="">
+                <p>Betty</p>
+                <p>USD 2,000</p>
+            </div>
+            <div class="product_list swiper-slide">
+                <img src="./img/asset-2.png" alt="">
+                <p>Betty</p>
+                <p>USD 2,000</p>
+            </div>
+           
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./all.js"></script>
 </body>
 
 </html>
