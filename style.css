@@ -105,6 +105,7 @@
 
 .prudct_title .btnNexPre {
   text-align: right;
+  cursor: pointer;
 }
 
 .main_size {
@@ -132,5 +133,69 @@ nav .icon_img {
 
 nav .icon_img a img {
   margin: 0 5px;
+}
+
+.exhibit {
+  position: relative;
+}
+
+.exhibit .Original1 {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.exhibit .point1 {
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  cursor: pointer;
+}
+
+.exhibit .point1:hover .point_img1 {
+  width: 25%;
+}
+
+.exhibit .point1:hover .product_data {
+  display: block;
+}
+
+.exhibit .point1 .point_img1 {
+  width: 100%;
+}
+
+.exhibit .point2 {
+  position: absolute;
+  top: 51%;
+  left: 50%;
+}
+
+.exhibit .point2:hover .point_img1 {
+  width: 25%;
+}
+
+.exhibit .point2:hover .product_data {
+  display: block;
+}
+
+.exhibit .point3 {
+  position: absolute;
+  top: 57%;
+  left: 85%;
+}
+
+.exhibit .point3:hover .point_img1 {
+  width: 25%;
+}
+
+.exhibit .point3:hover .product_data {
+  display: block;
+}
+
+.product_data {
+  display: none;
+  width: 150px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */
